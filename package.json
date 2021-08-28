@@ -1,0 +1,26 @@
+{
+  "name": "typescript-discord-bot",
+  "version": "0.0.1",
+  "description": "first typescript discord bot",
+  "main": "build/client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node build/client.js",
+    "watch": "tsc --watch",
+    "dev": "nodemon build/client.js"
+  },
+  "author": "Yog Panjarale",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "discordx": "^5.7.0",
+    "dotenv": "^10.0.0",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.4",
+    "nodemon": "^2.0.12",
+    "typescript": "^4.4.2"
+  }
+}
